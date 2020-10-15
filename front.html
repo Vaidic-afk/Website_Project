@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="CSS/front.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script>
+            $(document).ready(function(){
+                  $('#flip').click(function(){
+                        $(".but").slideToggle("slow");
+                  });
+            });
+      </script>
+      <style>
+            .but{
+                  display: none;
+                  float: left;
+            }
+      </style>
+</head>
+<body>
+      <h1 class="head" id="flip">WeShop</h1>
+      <div class="but">
+            <button type="submit" onclick="window.location.href='login.html';" class="buttn">Login</button>
+            <button type="submit" onclick="window.location.href='signup.html';"  class="buttn">Sign Up</button>
+      </div>
+</body>
+</html>
+ 
