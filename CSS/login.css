@@ -1,0 +1,41 @@
+body{
+	background-color: black;
+	color: white;
+}
+input[type="text"], input[type="password"]{
+	width: 20%;
+	padding: 12px 20px;
+	margin: 8px 0px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+label{
+	color: #E50914;
+}
+button{
+	background-color: #4CAF50;
+	color: white;
+	padding: 8px 20px;
+	margin: 8px 0px;
+	cursor: pointer;
+}
+button:hover{
+	opacity: 0.8;
+}
+.image{
+	text-align: center;
+	margin: 24px 0px 12px 0px;
+}
+img{
+	width: 10%;
+	border-radius: 50%;
+}
+.container{
+	padding: 16px;
+	text-align: center;
+}
+span{
+	margin-left: 47%;
+	padding-top: 16px;
+}

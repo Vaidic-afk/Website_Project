@@ -1,0 +1,23 @@
+body{
+      background-color: black;
+      color: white;
+}
+h3{
+      font-size: 3rem;
+}
+.container{
+      margin-left: 25%;
+      margin-top: 10%;
+      text-align: center;
+      align-items: center;
+      font-size: 2rem;
+      box-sizing: border-box;
+      width: 50%;
+      border: 5px solid white;
+      padding-bottom: 5%;
+}
+input{
+      font-size: 2rem;
+      cursor: pointer;
+
+}
